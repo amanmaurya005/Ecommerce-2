@@ -30,7 +30,7 @@ color:white;
 section {
     padding: 20px;
     margin: auto;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,6 +50,13 @@ section {
     font-size: 18px;
     margin: 5px 0;
     color:gold;
+}
+.product p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.product h4{
+    margin: 5px 0;
 }
 
 
