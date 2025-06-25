@@ -1,0 +1,55 @@
+*{
+    padding: 09;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(215, 107, 12);
+    padding: 0 30px;
+    color: white;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    width: 30%;
+}
+header li{
+    list-style: none;
+}
+header ul a{
+text-decoration: none;
+color:white;
+}
+section {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    box-shadow: 0 0 10px rgb(219, 209, 209);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 300px;
+    border-radius: 8px;
+}
+.product h5{
+    font-size: 18px;
+    margin: 5px 0;
+    color:gold;
+}
+
+
